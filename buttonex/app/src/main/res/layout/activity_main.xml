@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TableRow>
+        <TextView
+            android:layout_gravity="center"
+            android:text="CACULATOR"
+            android:textSize="20dp"
+            android:textColor="#BD2157"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number A"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter number A here"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number B"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter number B here"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:text="DO IT" />
+    </TableRow>
+    <TableRow>
+        <Spinner
+            android:id="@+id/sp"
+            android:layout_width="wrap_content"
+            android:layout_span="2"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="20dp"/>
+    </TableRow>
+</TableLayout>
